@@ -29,6 +29,22 @@ The first design job is not a full keyboard. It is a small test action that can
 compare tangent material, tangent face, key leverage, damping, and bebung
 response without pretending that final scale or tuning is known.
 
+## L2 Subsystem Plan
+
+- Key/action coupon: isolate one key lever, balance point, return behavior, and
+  tangent lift so touch can be measured before a full keyboard exists.
+- Tangent contact: compare candidate brass tangent faces and adjustment methods
+  on a single string course before any coordinate table is released.
+- String/layout branch: keep fretted/listed and unfretted approaches as
+  parallel pending-measurement branches until note-conflict and load evidence
+  exists.
+- Damping and release: test non-speaking-segment damping with bebung and
+  dynamic touch rather than treating damping as a finish detail.
+- Case/load path: keep case, bridge, hitch, and tuning-pin fields concept-only
+  until string course and load tests establish a reviewed direction.
+- Serviceability: require tangent adjustment, key removal, and damper access to
+  be demonstrable on the coupon before promoting geometry.
+
 ## Subsystems
 
 ### Key Action
@@ -37,7 +53,7 @@ response without pretending that final scale or tuning is known.
 - The action must allow controllable pressure after tangent contact.
 - Leverage, key dip, balance point, and return behavior are all
   `estimate_pending_measurement`.
-- No key dimensions or spacing are released in this L1 packet.
+- No key dimensions or spacing are released in this L2 packet.
 
 ### Brass Tangents
 
@@ -50,7 +66,7 @@ response without pretending that final scale or tuning is known.
 
 - Fretted/listed and unfretted approaches remain open design branches.
 - String count, string material, gauges, course pairing, and tuning are not
-  specified at L1.
+  specified at L2.
 - Shared-string layouts require an explicit note-conflict map before any L2
   claim.
 - Independent-string layouts require a load and tuning-hardware review.
@@ -84,6 +100,9 @@ created:
 - `estimate_damping_layout_pending_measurement`
 - `estimate_bridge_hitchpin_field_pending_measurement`
 - `estimate_case_load_path_pending_measurement`
+- `estimate_action_coupon_layout_pending_measurement`
+- `estimate_note_conflict_map_pending_measurement`
+- `estimate_service_clearance_pending_measurement`
 
 These names are placeholders, not values.
 
@@ -101,8 +120,10 @@ These names are placeholders, not values.
   mockup before choosing the first L2 direction.
 - Serviceability: prove tangent adjustment and key removal can happen without
   destructive disassembly.
+- Cut-list promotion: tie each future part class to a measured or reviewed
+  source before ordering, cutting, drilling, or laying out tangent positions.
 
-## L1 Boundary
+## L2 Boundary
 
 This file is a concept and engineering-risk map. It does not provide CAD,
 DXF, tooling instructions, dimensions, tuning, tangent coordinates, string

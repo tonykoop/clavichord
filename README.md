@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Clavichord
 
-Status: L1 V5 concept packet; tangent-keyed string mechanism study only, not
-fabrication-ready.
+Status: L2 V5 concept / pending-measurement packet; tangent-keyed string
+mechanism study only, not fabrication-ready.
 
-This repository is a V5 L1 build-packet seed for a clavichord. The design
+This repository is a V5 L2 build-packet seed for a clavichord. The design
 centers on keys that lift brass tangents into strings from below. The tangent
 both excites the string and defines its speaking length while the key remains
 pressed, allowing dynamic touch and bebung-style pitch inflection. The packet
@@ -21,6 +21,8 @@ a measured reference, prototype, or reviewed design table exists.
 
 - `design.md` - mechanism, parametric intent, and measurement gates.
 - `bom.csv` - estimated subsystem list with pending measurement authority.
+- `cut-list.csv` - candidate part ledger; all geometry and quantities remain
+  pending measurement.
 - `decision-record.md` - decisions, assumptions, and open questions.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
@@ -37,7 +39,7 @@ a measured reference, prototype, or reviewed design table exists.
 
 ## Readiness Boundary
 
-L1 means intent, risks, and subsystem interfaces are documented. Promotion to
-L2 requires reviewed parameters, measured or sourced reference constraints, and
-prototype test plans. L3 or stronger requires validated geometry and measured
-setup evidence.
+L2 means intent, subsystem interfaces, candidate part classes, and prototype
+measurement gates are documented. Promotion beyond L2 requires reviewed
+parameters, measured or sourced reference constraints, and prototype evidence.
+L3 or stronger requires validated geometry and measured setup evidence.
