@@ -5,8 +5,10 @@
 
 - Treat the clavichord as a tangent-keyed string instrument where touch after
   contact is part of the acoustic mechanism.
+- Uplift the packet to L2 by adding candidate part classes, coupon-test gates,
+  and service/safety review points.
 - Keep all dimensions, tuning, tangent coordinates, pressure values, string
-  gauges, CAD, and DXF work out of the L1 packet.
+  gauges, CAD, and DXF work out of the L2 packet.
 - Preserve fretted/listed and unfretted layouts as explicit open branches.
 - Make the first physical work a one-key tangent test rig before any complete
   keyboard or case design.
@@ -29,6 +31,10 @@
 - What damping layout preserves dynamic touch and bebung?
 - How should string load, case stiffness, and service access be reviewed before
   a full packet?
+- Which one-key coupon layout can compare tangent face, return behavior, and
+  damping without implying a full keyboard scale?
+- What evidence is required before a fretted/listed note-conflict map can
+  become a layout decision?
 
 ## Next Work
 
@@ -38,3 +44,5 @@
 - Compare fretted/listed and unfretted implications with a note-conflict and
   load review.
 - Record safety and serviceability observations before readiness is upgraded.
+- Promote beyond L2 only after the coupon and reference evidence produce
+  reviewed parameters, not from this concept packet.
