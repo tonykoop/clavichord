@@ -1,0 +1,8 @@
+source_id,subsystem,spec_class,authority,live_price_checked,notes
+SRC-001,tangents,"brass flat/round stock for tangent blades (alloy/temper TBD)",estimate_pending_measurement,no,"Tangent face/hardness/angle require bench tests before a spec is fixed."
+SRC-002,stringing,"music/piano wire, gauges TBD",estimate_pending_measurement,no,"String material and gauges not specified at L2."
+SRC-003,stringing,"tuning pins and hitch pins",estimate_pending_measurement,no,"Pin fields need layout + load review before a size is chosen."
+SRC-004,key_action,"key lever stock (wood/composite), balance + guide hardware",estimate_pending_measurement,no,"Leverage, dip, and return method pending measurement."
+SRC-005,damping,"damping cloth or felt (listing cloth)",estimate_pending_measurement,no,"Material/placement tested with tangent contact."
+SRC-006,structure,"case, soundboard, bracing, bridge/nut stock",estimate_pending_measurement,no,"Case + bridge concept-only until string-course and load tests exist."
+SRC-007,tools,"one-key action coupon build supplies",estimate_pending_measurement,no,"First physical test class; spec-first, no live pricing."
