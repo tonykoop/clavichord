@@ -1,0 +1,9 @@
+check_id,gate,target,method,authority,status,notes
+VAL-001,Tangent contact,"clean attack + sustain + release on one string course","bench test one brass tangent against one string",estimate_pending_measurement,TBD,"First measurement gate; no pressure or coordinate values released."
+VAL-002,Bebung response,"controllable pressure modulation without scraping or false pitch jumps","log pitch vs key pressure on the action coupon",estimate_pending_measurement,TBD,"Confirms the defining clavichord feature is achievable before geometry release."
+VAL-003,Dynamic touch,"distinguishable soft vs firm attack","compare attacks on the coupon without changing released authority",estimate_pending_measurement,TBD,"Touch sensitivity gate."
+VAL-004,Damping,"non-speaking segment stays quiet while preserving after-contact control","test damping cloth/felt with tangent in contact",estimate_pending_measurement,TBD,"Damping must not block bebung or dynamic touch."
+VAL-005,Layout branch,"choose fretted/listed vs unfretted first direction","compare small fretted mockup vs unfretted mockup + note-conflict map",estimate_pending_measurement,TBD,"No string count/course plan released until this closes."
+VAL-006,Serviceability,"tangent adjustment + key removal without destructive disassembly","demonstrate on coupon hardware",estimate_pending_measurement,TBD,"Service gate before promoting geometry."
+VAL-007,String load / safety,"string load and pinch-point review passes","load + pinch review before any case/action geometry",estimate_pending_measurement,TBD,"Safety gate; blocks case load-path release."
+VAL-008,Cut-list promotion,"each future part class tied to a measured or reviewed source","packet review before ordering/cutting/drilling",estimate_pending_measurement,TBD,"Gate before any fabrication file exists."

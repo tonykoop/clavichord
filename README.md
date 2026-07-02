@@ -1,8 +1,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Clavichord
 
-Status: L2 V5 concept / pending-measurement packet; tangent-keyed string
-mechanism study only, not fabrication-ready.
+**Status:** L2 V5 build-packet candidate — pending-measurement packet;
+tangent-keyed string mechanism study only, not fabrication-ready. Every physical
+claim remains `estimate_pending_measurement` until a measured reference,
+prototype, or reviewed design table exists.
 
 This repository is a V5 L2 build-packet seed for a clavichord. The design
 centers on keys that lift brass tangents into strings from below. The tangent
@@ -21,9 +23,21 @@ a measured reference, prototype, or reviewed design table exists.
 
 - `design.md` - mechanism, parametric intent, and measurement gates.
 - `bom.csv` - estimated subsystem list with pending measurement authority.
+- `sourcing.csv` - spec-first candidate sources; no live prices, all pending
+  measurement.
 - `cut-list.csv` - candidate part ledger; all geometry and quantities remain
   pending measurement.
+- `validation.csv` - the first measurement gates (tangent contact, bebung,
+  touch, damping, layout, service, load, cut-list promotion).
+- `risks.md` - acoustic/structural/serviceability/process risks mapped to gates.
+- `drawing-brief.md` - the first drawings to make AFTER the gates close.
 - `decision-record.md` - decisions, assumptions, and open questions.
+- `cad/clavichord.scad` - ILLUSTRATIVE-ONLY action-coupon scaffold; releases no
+  dimensions (authority `pending_measurement`).
+- `wolfram/clavichord-wolfram-model.wl` - tangent-defined string model source
+  (estimate placeholders; source-only, not executed).
+- `evolution/` - StudioPipeline evolution-pipeline Stage 0 intake; Gate A cannot
+  run until measurement gates close.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
 

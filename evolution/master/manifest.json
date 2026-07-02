@@ -1,0 +1,34 @@
+{
+  "product": "clavichord",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/clavichord.scad",
+      "format": "openscad-source",
+      "sha256": "4e42649c9958f309227306861efef0976e4f01ef4f41901e4163579cb21efe59",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "ILLUSTRATIVE-ONLY action-coupon scaffold; releases no dimensions, every parameter is an estimate_pending_measurement placeholder. Not measurable."
+    },
+    {
+      "path": "design.md",
+      "format": "design-sheet",
+      "sha256": "bd980f00f78b855774b020704b397100f767f7fc3c70989ea2a3c64ff287cba3",
+      "authority": "concept_only",
+      "lossy": false,
+      "notes": "Concept + engineering-risk map. No CAD, DXF, dimensions, tuning, tangent coordinates, or measured acoustic model."
+    },
+    {
+      "path": "wolfram/clavichord-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "2111294dd13894c56a8951920ba8603edc7954ea5e3fd4b8c9374aed6fb1448c",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Parametric tangent-defined string model with estimate placeholders only; source-only (not executed)."
+    }
+  ],
+  "notes": "V5 L2 concept packet that INTENTIONALLY RELEASES NO DIMENSIONS. OpenSCAD source is an illustrative mechanism diagram, not a dimensional master; there is no design table. No STEP export (out of scope). Gate A (Alpha workspace compile) not yet run and cannot be until measurement gates close (validation.csv)."
+}
